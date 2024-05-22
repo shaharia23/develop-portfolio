@@ -10,9 +10,9 @@ h1{
 .name-color{
     color: orange;
 }
-section{
+.flex-continer{
     display: flex;
-    margin: 120px;
+    margin-bottom: 120px;
 }
 .half-width{
     width: 50%;
@@ -47,4 +47,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-head{
+    margin-left: 5%;
+}
+.ex-head{
+    text-align: center;
+}
+.experience-item{
+    width: 43%;
+    margin-left: 5%;
+    padding: 25px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+#fullStack-Web-Developer{
+    border-left: 7px solid blue;
+}
+#Baby-Web-debeloper{
+    border-left: 7px solid tomato;
+}
+footer p{
+    text-align: center;
 }
